@@ -12,5 +12,5 @@ build:clean obj/myio.o obj/asm.o obj/mymain.o $(libs)
 	$(CC) obj/myio.o obj/asm.o obj/mymain.o -o $(bin)
 clean:
 	rm -f obj/*.o
-buildgit:obj/myio.o obj/mymain.o $(libs)
-	$(CC) obj/myio.o obj/asm.o obj/mymain.o -o $(bin)
+run:
+	./$(bin)
