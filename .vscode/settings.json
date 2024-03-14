@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "myio.h": "c",
+        "stat.h": "c"
+    }
+}
